@@ -1,6 +1,6 @@
 import React, { use, useCallback, useState } from 'react'
 import { useDropzone } from 'react-dropzone';
-import { formatSize } from '~/utils/formatSize';
+import { formatSize } from '~/lib/utlis';
 
 
 const maxFileSize = 20 * 1024 * 1024; // 20MB
